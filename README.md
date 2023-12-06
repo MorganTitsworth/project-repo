@@ -1,1 +1,1 @@
-# project-repo
+This is a repository for all of the mentoring hour projects to be pushed and pull requested into.
