@@ -4,7 +4,7 @@ function testFindKthLargest() {
     let nums = kth.generateRandomArray();
     console.log("Array:", nums);
 
-    let k = 2;
+    let k = 3;
 
     let result = kth.findKthLargest(nums, k);
     console.log(`Result from findKthLargest for k=${k}:`, result);

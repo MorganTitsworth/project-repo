@@ -10,14 +10,18 @@ function generateRandomArray() {
     return randomArray;
 }
 let nums = generateRandomArray();
-console.log(nums)
 // ---------------------------- CODE NOT HERE ---------------------------- //
+
+// ['anything', inside, {theArray}, [is, valid], 1, 2, 3]
+
+
+// K WILL ALWAYS == 2
 
 
 // ---------------------------- CODE HERE ---------------------------- //
 // Change value here to test different k values
-let k = 2;
 var findKthLargest = function(nums, k) {
+
 
 };
 export default { generateRandomArray, findKthLargest };
