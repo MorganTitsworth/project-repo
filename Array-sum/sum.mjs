@@ -8,10 +8,7 @@ function generateRandomArray() {
 
 
 function simpleArraySum(nums) {
-    const sum = nums.reduce((accumulator, currentValue) => {
-  return accumulator + currentValue;
-}, 0);
-    return sum
+
 }
 
 export default { generateRandomArray, simpleArraySum };
