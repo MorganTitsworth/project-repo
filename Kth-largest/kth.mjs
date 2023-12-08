@@ -18,8 +18,6 @@ console.log(nums)
 // Change value here to test different k values
 let k = 2;
 var findKthLargest = function(nums, k) {
-    let sortedArray = [...nums].sort((a, b) => b - a);
-    let directCheck = sortedArray[k - 1];
-    return directCheck
+
 };
 export default { generateRandomArray, findKthLargest };
