@@ -16,7 +16,7 @@ let nums = generateRandomArray();
 
 
 // K WILL ALWAYS == 2
-// other change with cherry pick
+
 
 // ---------------------------- CODE HERE ---------------------------- //
 // Change value here to test different k values
