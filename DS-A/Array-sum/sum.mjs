@@ -8,7 +8,7 @@ function generateRandomArray() {
 
 
 function simpleArraySum(nums) {
-
+asdasd
 }
 
 export default { generateRandomArray, simpleArraySum };
