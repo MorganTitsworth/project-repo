@@ -1,9 +1,10 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #c2c2c2;
   }
-  /*FAWNTS*/
-  
+  /*Margins, fonts and HTML background colors.*/
+
   .offcanvas-menu {
     position: fixed;
     top: 0;
