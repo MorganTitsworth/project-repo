@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays:Using Methods to Manipulate Arrays</title>
+</head>
+<body>
+    <script>
+        let fruits = [];
+        fruits.push("apple" , "banana" , "pear" , "strawberry");
+        console.log("Fruits array:", fruits);
+        let fruitsString = fruits.join(", ");
+        let someFruits = fruits.slice(1, 4);
+        someFruits.splice(1, 1);
+        console.log("Modified someFruits array;", someFruits);
+        let moreFruits = ["papaya" , "guava" , "jackfruit"];
+        fruits = fruits.concat(moreFruits);
+        console.log("Concatenated fruits array:", fruits);
+        let indexOfPapaya = fruits.indexOf("papaya");
+        console.log("Index of 'papaya' :", indexOfPapaya);
+    </script>    
+</body>
+</html>
